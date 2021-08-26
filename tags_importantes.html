@@ -5,6 +5,66 @@
     - navegação <nav>
     - conteúdo principal <main>
     - barra lateral <aside>
-    rodapé <footer>
+    - rodapé <footer>
+
+    Obs: Quem organiza isso é o CSS
 -->
 
+<!-- <header>
+    <header></header>
+
+    - Onde utilizar?
+        - Quando no início da página, é visto como global
+        - Pode ser usado em outros elementos semânticos como article, section
+        - header dentro de header ou footer? Não pode
+    - Múltiplos headers
+    - Não possui atributos específicos
+
+    Obs: Não confundir com head
+-->
+
+<!-- <nav>
+    <nav></nav>
+    
+    - Onde e por que utilizar?
+        - Geralmente vem dentro do <header> (mas não é obrigatótio)
+        - Usado para navegar entre seção importantes do site
+    - Múltiplos <nav>s
+    - Utilizados por leitores de tela (para acessibilidade)
+    - Não possui atributos específicos
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        Logomarca
+
+        <nav>
+            <ul>
+                <li>item</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        Conteúdo principal
+    </main>
+
+    <aside>
+        parte lateral
+    </aside>
+
+    <footer>
+        rodapé
+    </footer>
+
+</body>
+</html>
